@@ -1,0 +1,8 @@
+Arcery,25,true,true,true,true,false,false,false
+Riflery,20,true,true,true,true,false,false,false
+Sailing,20,true,true,true,true,false,false,true
+Low Ropes,20,true,true,false,false,false,false,false
+Climbing Wall,15,true,true,false,false,false,false,false
+High Ropes,10,false,false,true,true,false,false,true
+Soccer,20,false,false,true,true,false,false,false
+Candles,20,false,false,true,true,false,false,false

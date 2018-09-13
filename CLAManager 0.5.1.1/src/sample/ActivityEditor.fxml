@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="787.0" prefWidth="1125.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ActivityEditorController">
+   <top>
+      <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="activityMenu" mnemonicParsing="false" text="Activities">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <right>
+      <TableView fx:id="rosterTable" prefHeight="762.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="period1Column" prefWidth="150.0" text="Period 1" />
+            <TableColumn fx:id="period2Column" prefWidth="150.0" text="Period 2" />
+            <TableColumn fx:id="period3Column" prefWidth="150.0" text="Period 3" />
+            <TableColumn fx:id="period4Column" minWidth="5.0" prefWidth="150.0" text="Period 4" />
+            <TableColumn fx:id="period5Column" prefWidth="150.0" text="Period 5" />
+            <TableColumn prefWidth="150.0" text="Period 6" />
+            <TableColumn fx:id="period6Column" prefWidth="150.0" text="Period 6" />
+        </columns>
+      </TableView>
+   </right>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Label" />
+            <Label text="Label" />
+            <Label text="Label" />
+            <Label text="Label" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

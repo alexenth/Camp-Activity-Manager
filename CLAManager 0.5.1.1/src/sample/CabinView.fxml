@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane fx:id="borderPaneCabinView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CabinViewController">
+   <top>
+      <HBox prefHeight="47.0" prefWidth="626.0" spacing="30.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="assignmentButton" mnemonicParsing="false" text="Activity Assignment" />
+            <Button fx:id="activityViewButton" mnemonicParsing="false" text="View Rosters" />
+            <Button fx:id="manageActivitiesButton" mnemonicParsing="false" text="Manage Activities" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </top>
+   <center>
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
